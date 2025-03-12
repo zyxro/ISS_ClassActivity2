@@ -13,3 +13,4 @@ def print_narcis_numbers(start, end): #Added a colon and a comma
     for num in range(start, end + 1): #Added a colon
         if is_narc(num): #Added a colon at the end and changed is_narcissistic to is_narc
             print(num)
+print_narcis_numbers(1000, 5000) #Changed the function call 
